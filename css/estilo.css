@@ -172,3 +172,66 @@ header h1 {
 .tarjeta__parrafo {
   line-height: 28px;
   font-size: 1rem; }
+@media only screen and (max-width: 480px) {
+    .tarjeta__img {
+      width: 100%;
+    }
+  }
+  
+  .sobremiimg{
+    width: 50%;
+    height: 300px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .sobremiimg {
+      width: 100%;
+    }
+  }
+
+  .formulario{
+    width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+
+  .newsletter{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  table {
+    border-radius: 25%;
+
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  th {
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #db8708;
+  color: white;
+  }
